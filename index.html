@@ -1,0 +1,815 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gilda+Display&display=swap" />
+        <title>Diana</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/favicon.png" class="logo" /> DIANA
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li><a href="#home" class="nav__link active-link">Portada</a></li>
+                        <li><a href="#gallery" class="nav__link">Galeria</a></li>
+                        <li><a href="#poems" class="nav__link">Poemas</a></li>
+                        <li><a href="#feelings" class="nav__link">Sentires</a></li>
+                        <li><a href="#love" class="nav__link">Amor</a></li>
+                    </ul>
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__img-bg">
+                        <img src="assets/img/foto_9.jpeg" alt="" class="home__img">
+                    </div>    
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link"><img src="assets/img/facebook.png" alt=""></a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link"><img src="assets/img/twitter.png" alt=""></a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link"><img src="assets/img/instagram.png" alt=""></a>
+                    </div>    
+                    <div class="home__data">
+                        <h1 class="home__title">Diana Marcela <br> Cuaran Narvaez</h1>
+                        <p class="home__description">
+                            Eres lo mejor que me pudo pasar en la vida y este es solo un pequeño detalle de lo que por amor puedo hacer por tí, gracias por existir mi chaparrita bonita.
+                        </p>
+                        <span class="home__price">{ * 8 AÑOS de conocidos * } </span>
+                        <span class="home__price">{ * 4 AÑOS de amistad * } </span>
+                        <span class="home__price">{ * 2 AÑOS de puro amor * } </span>
+                        <div class="home__btns">
+                            <a href="#" onclick="window.modal1.showModal();" class="button button--gray button--small">DESCUBRE</a>
+                            <button onclick="window.modal2.showModal();" class="button home__button">ESCUCHA</button>
+                        </div>
+                    </div>
+                </div>
+                <dialog id="modal1" class="open__modal__1">
+                    <div style="display: grid; background: black; opacity: .4; height: 100%;">
+                        <div>
+                            <h2 class="title__modal__1">ME SALVASTE</h2><br>
+                            <p class="text__modal__1">
+                                Vivía atado a la soledad creyendo que era lo mejor <br>
+                                Que en su refugio nadie me haría sentir dolor <br>
+                                Creía que el amor era una simple atadura <br>
+                                Porque jamás llegué a conocer la verdadera ternura. <br><br>
+                                
+                                En mi corazón las palabras eran simples plusvalías <br>
+                                Usadas efímeramente para calmar el vacío que por dentro ardía <br>
+                                La vida es una y todo era mejor sin amor verdadero <br>
+                                Porque creía que no existía y era algo pasajero. <br><br>
+                                
+                                Los días pensando solo en mí era lo mejor <br>
+                                Pero cada minuto sin amor, dejaba heridas de dolor <br>
+                                Escéptico y pesimista corazón de vivir egoístamente <br>
+                                Cuando podrías tener a alguien, ocupando tu mente. <br><br>
+                                
+                                Vivir atado a este mundo con cada sueño utópico <br>
+                                Hacía de mi alguien irrelevante y atípico <br>
+                                Por mi naturaleza romántica y entregada al amor <br>
+                                Y no creer en él, por la cobardía y pavor al dolor. <br><br>
+                                
+                                Que apatía la mía de negarme a ser feliz <br>
+                                De entregarme por completo aun siendo un aprendiz <br>
+                                Pero no importa ya, porque me salvaste de la soledad <br>
+                                Salvaste a mi ciego corazón de la oscuridad. <br><br>
+                                
+                                Me salvaste del atroz miedo al dolor <br>
+                                Me ofreciste un refugio cálido y acogedor <br>
+                                Solo tú, acariciaste mi corazón y abrí la puerta <br>
+                                Nunca creí que, para tí, siempre estuvo abierta. <br><br>
+                            </p>
+                        </div>
+                        <div style="display: flex; justify-content: center;">
+                            <button class="button home__button" onclick="window.modal1.close();">Cerrar Modal</button>
+                        </div>
+                    </div>
+                </dialog>
+                <dialog id="modal2" class="open__modal__2">
+                    <div style="display: grid; background: black; height: 100%;">
+                        <div>
+                            <h2 class="title__modal__1">DÍMELO CON UNA CANCIÓN</h2><br>
+                            <p style="font-weight: bold; margin-left: 2rem; font-family: monospace;">*** "SUPER GIRL" ***</p>
+                            <p style="margin: 1rem 2rem 1rem 2rem; font-family: monospace;">
+                                You can tell by the way she walks <br>
+                                <span style="font-weight: bold; color: orange;">Se puede decir por la forma en que camina</span> <br>
+                                That she's my girl <br>
+                                <span style="font-weight: bold; color: orange;">Que es mi chica</span><br>
+                                You can tell by the way <br>
+                                <span style="font-weight: bold; color: orange;">Se puede decir por la forma</span><br>
+                                She talks she woos the world <br>
+                                <span style="font-weight: bold; color: orange;">Ella habla ella corteja al mundo</span><br>
+                                You can see in her eyes <br>
+                                <span style="font-weight: bold; color: orange;">Puedes ver en sus ojos</span><br>
+                                That no one is her change <br>
+                                <span style="font-weight: bold; color: orange;">Que nadie es su cambio</span><br>
+                                She's my girl <br>
+                                <span style="font-weight: bold; color: orange;">Ella es mi chica</span><br>
+                                My supergirl <br>
+                                <span style="font-weight: bold; color: orange;">Mi superchica</span><br><br>
+                            
+                                And then she'd say <br>
+                                <span style="font-weight: bold; color: orange;">Y entonces ella diría</span><br>
+                                "It's OK, I got lost on the way <br>
+                                <span style="font-weight: bold; color: orange;">"Está bien, me perdí en el camino</span><br>
+                                But I'm a super girl <br>
+                                <span style="font-weight: bold; color: orange;">Pero soy una superchica</span><br>
+                                And super girls don't cry" <br>
+                                <span style="font-weight: bold; color: orange;">Y las superchicas no lloran"</span><br>
+                                And then she'd say <br>
+                                <span style="font-weight: bold; color: orange;">Y luego decía</span><br>
+                                "It's alright, I got home <br>
+                                <span style="font-weight: bold; color: orange;">"Está bien, llegué a casa</span><br>
+                                Late last night <br>
+                                <span style="font-weight: bold; color: orange;">Tarde anoche</span><br>
+                                But I'm a super girl <br>
+                                <span style="font-weight: bold; color: orange;">Pero soy una super chica</span><br>
+                                And super girls just fly <br>
+                                <span style="font-weight: bold; color: orange;">Y las súper chicas vuelan</span><br>
+                            
+                                And then she'd say <br>
+                                <span style="font-weight: bold; color: orange;">Y entonces ella diría</span><br>
+                                That nothing can go wrong <br>
+                                <span style="font-weight: bold; color: orange;">Que nada puede salir mal</span><br>
+                                When you're in love <br>
+                                <span style="font-weight: bold; color: orange;">Cuando estás enamorado</span><br>
+                                What can be wrong? <br>
+                                <span style="font-weight: bold; color: orange;">¿Qué puede salir mal?</span><br>
+                                And then she'd laugh <br>
+                                <span style="font-weight: bold; color: orange;">Y entonces ella se reiría</span><br>
+                                The night time into day <br>
+                                <span style="font-weight: bold; color: orange;">De la noche al día</span><br>
+                                Pushing her fear <br>
+                                <span style="font-weight: bold; color: orange;">Empujando su miedo</span><br>
+                                Further alone <br>
+                                <span style="font-weight: bold; color: orange;">Más solo</span><br><br>
+                            
+                                And then she'd say <br>
+                                <span style="font-weight: bold; color: orange;">Y entonces ella diría</span><br>
+                                "It's OK, I got lost on the way <br>
+                                <span style="font-weight: bold; color: orange;">"Está bien, me perdí en el camino</span><br>
+                                But I'm a super girl <br>
+                                <span style="font-weight: bold; color: orange;">Pero soy una super chica</span><br>
+                                And super girls don't cry" <br>
+                                <span style="font-weight: bold; color: orange;">Y las súper chicas no lloran"</span><br>
+                                And then she'd say <br>
+                                <span style="font-weight: bold; color: orange;">Y luego diría</span><br>
+                                "It's alright, I got home <br>
+                                <span style="font-weight: bold; color: orange;">"Está bien, llegué a casa</span><br>
+                                Late last night <br>
+                                <span style="font-weight: bold; color: orange;">Tarde anoche</span><br>
+                                But I'm a super girl <br>
+                                <span style="font-weight: bold; color: orange;">Pero soy una super chica</span><br>
+                                And super girls just fly" <br>
+                                <span style="font-weight: bold; color: orange;">Y las súper chicas vuelan"</span><br><br>
+                            
+                                She's sowing seeds <br>
+                                <span style="font-weight: bold; color: orange;">Está sembrando semillas</span><br>
+                                She's burning trees <br>
+                                <span style="font-weight: bold; color: orange;">Está quemando árboles</span><br>
+                                She's sowing seeds <br>
+                                <span style="font-weight: bold; color: orange;">Está sembrando semillas</span><br>
+                                She's burning trees <br>
+                                <span style="font-weight: bold; color: orange;">Está quemando árboles</span><br>
+                                Yes she's a supergirl <br>
+                                <span style="font-weight: bold; color: orange;">Sí, es una superchica</span><br>
+                                A supergirl <br>
+                                A supergirl <br>
+                                My supergirl <br><br>
+                            </p>
+                            <iframe class="iframe" src="https://www.youtube.com/embed/AD1dwHNUi0Q" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div style="padding-top: 2rem; padding-bottom: 2rem; display: flex; justify-content: center;">
+                            <button class="button home__button" onclick="window.modal2.close();">Cerrar Modal</button>
+                        </div>
+                    </div>
+                </dialog>
+            </section>
+            <!--==================== GALLERY ====================-->
+            <section class="featured section container" id="gallery">
+                <h2 class="section__title">Galería</h2>
+                <div class="featured__container grid">
+                    <article class="featured__card">
+                        <span class="featured__tag">MI AMOR</span>
+                        <img src="assets/img/foto_1.jpeg" alt="" class="featured__img">
+                        <div class="featured__data">
+                            <h3 class="featured__title">MI AMOR ERES ...</h3>
+                            <span class="featured__price">BONITA</span>
+                        </div>
+                        <button class="button featured__button" onclick="window.modal3.showModal();">VER MÁS</button>
+                    </article>
+                    <article class="featured__card">
+                        <span class="featured__tag">MI PASIÓN</span>
+                        <img src="assets/img/foto_2.jpeg" alt="" class="featured__img">
+                        <div class="featured__data">
+                            <h3 class="featured__title">MI AMOR ERES ...</h3>
+                            <span class="featured__price">ESPECIAL</span>
+                        </div>
+                        <button class="button featured__button" onclick="window.modal4.showModal();">VER MÁS</button>
+                    </article>
+                    <article class="featured__card">
+                        <span class="featured__tag">MI TERNURA</span>
+                        <img src="assets/img/foto_3.jpeg" alt="" class="featured__img">
+                        <div class="featured__data">
+                            <h3 class="featured__title">MI AMOR ERES ...</h3>
+                            <span class="featured__price">ÚNICA</span>
+                        </div>
+                        <button class="button featured__button" onclick="window.modal5.showModal();">VER MÁS</button>
+                    </article>
+                    <article class="featured__card">
+                        <span class="featured__tag">MI LOCURA</span>
+                        <img src="assets/img/foto_4.jpeg" alt="" class="featured__img">
+                        <div class="featured__data">
+                            <h3 class="featured__title">MI AMOR ERES ...</h3>
+                            <span class="featured__price">MÍA</span>
+                        </div>
+                        <button class="button featured__button" onclick="window.modal6.showModal();">VER MÁS</button>
+                    </article>
+                </div>
+                <dialog id="modal3" class="open__modal__3">
+                    <div style="display: grid; background: black; opacity: .3; height: 100%;">
+                        <div>
+                            <h2 class="title__modal__1">MI AMOR ERES "MI BONITA"</h2>
+                        </div>
+                        <div style="padding-top: 35rem; display: flex; justify-content: center;">
+                            <button class="button home__button" onclick="window.modal3.close();">Cerrar Modal</button>
+                        </div>
+                    </div>
+                </dialog>
+                <dialog id="modal4" class="open__modal__4">
+                    <div style="display: grid; background: black; opacity: .3; height: 100%;">
+                        <div>
+                            <h2 class="title__modal__1">MI AMOR ERES "ESPECIAL"</h2>
+                        </div>
+                        <div style="padding-top: 35rem; display: flex; justify-content: center;">
+                            <button class="button home__button" onclick="window.modal4.close();">Cerrar Modal</button>
+                        </div>
+                    </div>
+                </dialog>
+                <dialog id="modal5" class="open__modal__5">
+                    <div style="display: grid; background: black; opacity: .3; height: 100%;">
+                        <div>
+                            <h2 class="title__modal__1">MI AMOR ERES "ÚNICA"</h2>
+                        </div>
+                        <div style="padding-top: 35rem; display: flex; justify-content: center;">
+                            <button class="button home__button" onclick="window.modal5.close();">Cerrar Modal</button>
+                        </div>
+                    </div>
+                </dialog>
+                <dialog id="modal6" class="open__modal__6">
+                    <div style="display: grid; background: black; opacity: .3; height: 100%;">
+                        <div>
+                            <h2 class="title__modal__1">MI AMOR ERES "SOLO MÍA"</h2>
+                        </div>
+                        <div style="padding-top: 35rem; display: flex; justify-content: center;">
+                            <button class="button home__button" onclick="window.modal6.close();">Cerrar Modal</button>
+                        </div>
+                    </div>
+                </dialog>
+            </section>
+            <!--==================== STORY ====================-->
+            <section class="story section container" id="poems">
+                <div class="story__container grid">
+                    <div class="story__data">
+                        <h2 class="section__title story__section-title">Nuestra Historia</h2>    
+                        <h1 class="story__title">Esta es una historia <br> única y especial</h1>    
+                        <p class="story__description">
+                            Esta historia se refleje como pocas, pero trascenderá aún en el tiempo.
+                            Y el amor se encargará de hacerlo realidad.
+                        </p>    
+                        <a href="#story" class="button button--small" onclick="window.modal7.showModal();">LEER MÁS</a>
+                    </div>
+                    <div class="story__images">
+                        <img src="assets/img/foto_8.jpeg" alt="" class="story__img">
+                        <div class="story__square"></div>
+                    </div>
+                </div>
+                <dialog id="modal7" class="open__modal__7">
+                    <div style="display: grid; background: black; opacity: .5; height: 100%;">
+                        <div>
+                            <h2 class="title__modal__1">UNA HISTORÍA DE AMOR</h2><br>
+                            <p class="text__modal__7">
+                                Maravilloso el momento de estar vivo y ser parte de una historia como pocas y únicas que surgen en esta corta y efímera
+                                existencia. Las cosas precisas que se dan en este extenso tiempo humano que para muchos solo es un pasar de página de
+                                entre tantos libros llenos de historias y tal vez esta es una de ellas. <br><br>
+                                Un día como cualquiera bajo el cielo gris característico de la ciudad capital, como todos los días levanto la vista a
+                                ver las nubes grises y tal vez en mi mirada se expresaba un grito interior del corazón que pedía que el amor se
+                                acercarse un poco a mí, tal vez por la soledad que me embargaba o la sana envidia de ver parejas demostrándose amor
+                                hasta con las miradas. Y tal vez eso fue el inicio de una conspiración entre la vida, el destino y el cosmos para
+                                acercarme a quien tanto añoraba. <br><br>
+                                Y es así como se da inicio a nuestra historia, y que ahora empiezo a llenar estas páginas en blanco con el sentir del
+                                amor y la pasión que me enerva cuando se trata del amor, de ti. A ti, a quien va dirigido estas líneas y que en
+                                consecuencia eres la protagonista de esta aventura. Imaginar que todo inicia aleatoriamente por decisión lógica del azar
+                                para entrelazar dos mundos y juntos recorrer los mismos caminos hasta que la vida nos permita y en ese transcurso
+                                empezar a escribir aquello que llamamos historia, nuestra historia. <br><br>
+                                Aún están perpetuos en mi memoria las tardes de charlas amenas mientras éramos cómplices de aquella conspiración que se
+                                manifestaba por medio de un juego, para luego hacernos partícipes eternos del amor. Solo me bastó saber tu nombre para
+                                inmortalizar nuestro encuentro y con el tiempo cada uno de nuestros corazones intercambiaran de lugar, sumidos en ese
+                                sentimiento maravilloso llamado amor. Y que hoy a pesar del tiempo y la distancia siempre me quemó el pecho y me acelera
+                                el corazón cuando se trataba de ti. <br><br>
+                                Lo vivido hasta ese momento hacía de mí, quien no soy después de ti, porque de alguna u otra manera tu cambiaste en mí
+                                muchas cosas, permitiéndome descubrir cosas que ni yo mismo los conocía hasta entonces. Dándole un sentido hasta
+                                entonces, de porque valió la pena caminar solo durante todo ese tiempo, hacerme fiel amigo de la soledad, cohibirme de
+                                los amores furtivos, de las lenguas de dulces palabras, pero sobre todo los corazones despechados embargados de ira y
+                                rencor. <br><br>
+                                Encontrarte le dio de cierta forma un sentido y un rumbo de lo que quería y hacia dónde quería ir, todo ello gracias a
+                                una sola persona. Ahora entiendo cuando dicen que una persona o la mirada de una persona puede intervenir en lo que
+                                realmente queremos convertirnos y es extraordinario cuando vamos hacia allá, llevados de la mano por el amor. Y creo que
+                                entre todas las cosas de mis ideales, sueños, metas y objetivos se resumía en encontrar al amor o que el amor me
+                                encuentre a mí, en cualquiera de los casos simplemente me hacías falta tú, porque subconscientemente en realidad mi
+                                verdadero sueño era encontrarte a ti. <br><br>
+                                Sin precisar a detalle lo que les quiero narrar en esta nuestra historia de amor, preciso que el único motivo por cual
+                                nace estos párrafos, es ella. Y quiero hacer renombre que la causa de mi sentir para inspirarme en cada detalle de lo
+                                que a continuación se relata es únicamente gracias a la mujer por quien escribiría una y mil historias más, por lo
+                                tanto, cada frase y verso incluido aquí es únicamente propiedad de la protagonista.
+                                Te agradezco a ti por siempre y que alguien anónimo por ahí lo recuerde y sepa que la memoria de mi corazón, es este
+                                legado que dejo aquí, para ti.
+                            </p>
+                        </div>
+                        <div style="display: flex; justify-content: center;">
+                            <button class="button home__button" onclick="window.modal7.close();">Cerrar Modal</button>
+                        </div>
+                    </div>
+                </dialog>
+            </section>
+            <!--==================== POEMAS ====================-->
+            <section class="products section container" id="poems">
+                <h2 class="section__title">Poemas</h2>
+                <div class="products__container grid">
+                    <article class="products__card">
+                        <img src="assets/img/foto_17.jpeg" alt="" class="products__img">
+                        <h3 class="products__title">A ELLA</h3>
+                        <span class="products__price">Poema 1</span>
+                        <button class="products__button" onclick="window.modal8.showModal();">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                    <article class="products__card">
+                        <img src="assets/img/foto_18.jpeg" alt="" class="products__img">
+                        <h3 class="products__title">LA MUJER QUE AMO</h3>
+                        <span class="products__price">Poema 2</span>
+                        <button class="products__button" onclick="window.modal9.showModal();">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                    <article class="products__card">
+                        <img src="assets/img/foto_11.jpeg" alt="" class="products__img">
+                        <h3 class="products__title">TE ENCONTRÉ</h3>
+                        <span class="products__price">Poema 3</span>
+                        <button class="products__button" onclick="window.modal10.showModal();">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                    <article class="products__card">
+                        <img src="assets/img/foto_14.jpeg" alt="" class="products__img">
+                        <h3 class="products__title">TU AMOR</h3>
+                        <span class="products__price">Poema 4</span>
+                        <button class="products__button" onclick="window.modal11.showModal();">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                </div>
+                <dialog id="modal8" class="open__modal__8">
+                    <div style="display: grid; background: black; opacity: .5; height: 100%;">
+                        <div>
+                            <h2 class="title__modal__1">A ELLA</h2><br>
+                            <p class="text__modal__7">
+                                En esta noche linda y especial donde la luna mengua <br>
+                                Cierro los ojos me transporto a ella, mientras calla la lengua <br>
+                                Y doy paso a que el corazón hable sobre ella <br>
+                                Pero mi mente divaga en su universo persiguiendo aquella estrella. <br><br>
+                                Esta tragedia de vivir sin ella duele el alma y rasga el corazón <br>
+                                No existe remedio alguno para calmar mi triste desazón <br>
+                                Cruzar la distancia y encontrarla para verla sonreír <br>
+                                Es lo único que le daría sentido a mi existir. <br><br>                                
+                                Decirle que la extraño y que me hace falta es sencillo <br>
+                                Mejor escribiré canciones para decir su nombre en cada estribillo <br>
+                                Verla a los ojos y que ellos me gritan la necesidad de un beso <br>
+                                Sería tan solo el inicio ceremonial para otorgar al amor todo acceso. <br><br>                                
+                                A ella todo mi amor que jamás entregue alguna vez <br>
+                                Porque el destino se reserva el tiempo perfecto, ya lo ves <br>
+                                Y ahora en este nuestro tiempo se compromete a juntarnos <br>
+                                No es una simple coincidencia que hoy logremos encontrarnos. <br><br>                                
+                                Escuchar tu voz es la melodía inexplicable de mi corazón <br>
+                                Son tus palabras acentuadas con la perfecta expresión <br>
+                                Que estremecen mis sentidos auditivos y me erizan la piel <br>
+                                Todo eso causa en mí y es tal, que sueño con tus labios sabor a miel. <br><br>                                
+                                Cuando te vea hermosa y risueña lanzando vibratos al viento <br>
+                                Estaré contemplando enamorado y privilegiado tu voz y acento <br>
+                                Y sin poder expresar mi sentir con palabras llenas de sensibilidad <br>
+                                Notaras que mi rostro estará atravesado por tajos de humedad. <br><br>
+                            </p>
+                        </div>
+                        <div style="display: flex; justify-content: center;">
+                            <button class="button home__button" onclick="window.modal8.close();">Cerrar Modal</button>
+                        </div>
+                    </div>
+                </dialog>
+                <dialog id="modal9" class="open__modal__9">
+                    <div style="display: grid; background: black; opacity: .5; height: 100%;">
+                        <div>
+                            <h2 class="title__modal__1">LA MUJER QUE AMO</h2><br>
+                            <p class="text__modal__7">
+                                Hoy como nunca, el amor me ha tocado <br>
+                                Encontré a una persona que sin medida me ha cambiado <br>
+                                Y qué tan dentro en mí, ha calado <br>
+                                Que mi corazón y mi alma solo quieren estar a su lado. <br><br>                                
+                                Te amo como nunca ame en este mundo <br>
+                                Escribir para ti es lo único que me hace sentir vivo <br>
+                                Y si me dijeras que no, todo sería vano e inmundo <br>
+                                Pero al ver el brillo de tus ojos hace de mí, un divo <br><br>                                
+                                Qué sería hoy de mí sin ti, seguro estaría perdido <br>
+                                Pero ahora que estoy contigo me siento seguro y protegido <br>
+                                Déjame amarte de la forma que deseo hacerlo <br>
+                                Toma de mi mano siente el amor y empecemos a conocerlo. <br><br>                                
+                                Un suspiro una sonrisa una mirada todo me lleva a ti <br>
+                                Te amo y te necesito como la flor al colibrí <br>
+                                Ámame y descontrola todo en mí <br>
+                                Que si no es hoy, mañana tal vez ya no esté aquí. <br><br>                                
+                                Un nombre perfecto para la mujer perfecta <br>
+                                No sabes cómo tu amor en mi vida, afecta <br>
+                                Todo lo que haga, lo quiero hacer contigo <br>
+                                Jamás pensé sentirme así, por favor quédate conmigo. <br><br>
+                            </p>
+                        </div>
+                        <div style="display: flex; justify-content: center;">
+                            <button class="button home__button" onclick="window.modal9.close();">Cerrar Modal</button>
+                        </div>
+                    </div>
+                </dialog>
+                <dialog id="modal10" class="open__modal__10">
+                    <div style="display: grid; background: black; opacity: .5; height: 100%;">
+                        <div>
+                            <h2 class="title__modal__1">TE ENCONTRÉ</h2><br>
+                            <p class="text__modal__7">
+                                Una tarde como cualquiera sin sueños ni metas <br>
+                                Esperando que pase el día con estas horas perpetuas <br>
+                                Pasando la vida cómo ve pasar la roca al río <br>
+                                Estando en compañía de tantas personas, pero yo, solitario. <br><br>                                
+                                Aun teniéndolo todo, se siente un vacío enorme dentro mío <br>
+                                Que al dormir en verano lleno de calor pueda sentir frío <br>
+                                Con el corazón perdido en el abismo de la soledad <br>
+                                Llorando y lastimando a la razón sin ninguna piedad. <br><br>                                
+                                Entre el amanecer y el anochecer todo me es indiferente <br>
+                                Pasan las personas que vienen y van, y solo mirando de frente <br>
+                                Sin expectativas de encontrar un saludo y un te amo <br>
+                                Mientras el mundo sigue y gira como el rodezno en el cárcamo. <br><br>                                
+                                Me refugio en cosas que distraen mi mente <br>
+                                Pero es inevitable serle a la soledad indiferente <br>
+                                Madrugadas sin dormir y solo pensando en un amor <br>
+                                Pero sé que el momento llegará y con él un gran temor. <br><br>                                
+                                Ahora solo bastaba un saludo y una fotografía <br>
+                                Para saber que era tu nombre que estaría en mí biografía <br>
+                                Después de una plática y conocer un poco más de ti <br>
+                                Encontré lo que necesitaba y algo dentro de mí, sentí. <br><br>                                
+                                Oh mi corazón y tu corazón, ahora se han unido <br>
+                                Que frágil, cálido, amoroso, travieso, romántico, terco y atrevido <br>
+                                Así es tu corazón, oh mi amor, sin previo aviso en él, yo entré <br>
+                                Ahora y siempre puedo decir que, te encontré. <br><br>
+                            </p>
+                        </div>
+                        <div style="display: flex; justify-content: center;">
+                            <button class="button home__button" onclick="window.modal10.close();">Cerrar Modal</button>
+                        </div>
+                    </div>
+                </dialog>
+                <dialog id="modal11" class="open__modal__11">
+                    <div style="display: grid; background: black; opacity: .5; height: 100%;">
+                        <div>
+                            <h2 class="title__modal__1">TU AMOR</h2><br>
+                            <p class="text__modal__7">
+                                Tu amor es como una noche de estelas <br>
+                                Como un viaje sin retorno a las estrellas <br>
+                                Como viento fresco en un día de verano <br>
+                                Cómo primavera que reverdece el llano. <br><br>                                
+                                Tu amor que me calma y me estremece <br>
+                                Ese amor que es solo a mí, a quien le pertenece <br>
+                                Tu amor que me llena y me transporta fuera de este mundo <br>
+                                Y que me deja en la infinidad del cosmos, meditabundo. <br><br>                                
+                                Tu amor que conspira en enamorarme cada día <br>
+                                Sin temor a perderte aun en la vasta lejanía <br>
+                                Tu amor que me protege como su tesoro perpetuo <br>
+                                Ese amor inconmensurable correspondido y mutuo. <br><br>                                
+                                Tu amor incandescente que me eriza la piel <br>
+                                Solo con pensar en él, siento que te amo hasta con la hiel <br>
+                                Tu amor que me lleva al terreno de eros <br>
+                                Y sin piedad toma mi cuerpo y junto al tuyo se tornan tan fieros. <br><br>                                
+                                Tu amor ese quien hace de mí, un niño mimado <br>
+                                Que tan solo con escucharte decir mi nombre, me siento amado <br>
+                                Tu amor que me cuida, engríe, tolera, adora y sin mentiras <br>
+                                Yo escribo estas líneas, pero tú, las inspiras. <br><br>
+                            </p>
+                        </div>
+                        <div style="display: flex; justify-content: center;">
+                            <button class="button home__button" onclick="window.modal11.close();">Cerrar Modal</button>
+                        </div>
+                    </div>
+                </dialog>
+            </section>
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section container" id="feelings">
+                <h2 class="section__title">Sentires</h2>
+                <div class="testimonial__container grid">
+                    <div class="swiper testimonial-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left'></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    La mujer que yo amo, duerme y sueña bajo una almohada predilecta que envidio,
+                                    pues ella disfruta y contempla su dulce descanso noche tras noche. Sus sueños
+                                    ahora son mis sueños y mi vida ahora es suya.
+                                </p>
+                                <h3 class="testimonial__date">Enero. 2023</h3>        
+                                <div class="testimonial__perfil">
+                                    <img src="assets/img/foto_30.jpeg" alt="" class="testimonial__perfil-img">        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Antony Jordan</span>
+                                        <span class="testimonial__perfil-detail">Autor</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    Si el azar no existe y no tiene sentido en la vida, que eres tú si te encontré gracias al él,
+                                    y ahora eres tú, mi único sentido en esta vida y por quién disfruto existir.
+                                </p>
+                                <h3 class="testimonial__date">Marzo. 2023</h3>        
+                                <div class="testimonial__perfil">
+                                    <img src="assets/img/foto_31.jpeg" alt="" class="testimonial__perfil-img">        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Antony Jordan</span>
+                                        <span class="testimonial__perfil-detail">Autor</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    Un beso tuyo es lo único que anhelo hoy y cada día de mi existencia, acariciar tus labios,
+                                    tocar tus manos y verme en tus ojos para perderme en ellos y dar paso a un "TE AMO".
+                                </p>
+                                <h3 class="testimonial__date">Junio. 2023</h3>        
+                                <div class="testimonial__perfil">
+                                    <img src="assets/img/foto_32.jpeg" alt="" class="testimonial__perfil-img">        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Antony Jordan</span>
+                                        <span class="testimonial__perfil-detail">Autor</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                        <div class="swiper-button-next">
+                            <i class='bx bx-right-arrow-alt' ></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class='bx bx-left-arrow-alt' ></i>
+                        </div>
+                    </div>
+                    <div class="testimonial__images">
+                        <div class="testimonial__square"></div>
+                        <img src="assets/img/foto_10.jpeg" alt="" class="testimonial__img">
+                    </div>
+                </div>
+            </section>
+            <!--==================== NEW ====================-->
+            <section class="new section container" id="love">
+                <h2 class="section__title">MI AMOR</h2>                
+                <div class="new__container">
+                    <div style="width: 100%; height: 100%; overflow: hidden;">
+                        <ul class="ul__slide">
+                            <li style="width: 100%; list-style: none; display: flex; flex-direction: column;">
+                                <div style="display: flex; justify-content: center;">
+                                    <img src="assets/img/foto_21.jpeg" alt="" class="new__img">
+                                </div>                                       
+                                <div class="new__data">
+                                    <h3 class="new__title">MI NIÑA</h3>
+                                    <span class="new__price">Poema de Amor</span>
+                                    <button onclick="window.modal12.showModal();" class="button home__button">LEER MÁS ...</button>
+                                </div>                                
+                            </li>
+                            <li style="width: 100%; list-style: none; display: flex; flex-direction: column;">
+                                <div style="display: flex; justify-content: center;">
+                                    <img src="assets/img/foto_24.jpeg" alt="" class="new__img">
+                                </div>
+                                <div class="new__data">
+                                    <h3 class="new__title">MI NOVÍA BONITA</h3>
+                                    <span class="new__price">Mi Chaparrita</span>
+                                    <button onclick="window.modal13.showModal();" class="button home__button">VER MÁS ...</button>
+                                </div>                                
+                            </li>
+                            <li style="width: 100%; list-style: none; display: flex; flex-direction: column;">
+                                <div style="display: flex; justify-content: center;">
+                                    <img src="assets/img/foto_25.jpeg" alt="" class="new__img">
+                                </div>
+                                <div class="new__data">
+                                    <h3 class="new__title">ME ENAMORÉ DE UNA FLOR</h3>
+                                    <span class="new__price">Poema del Corazón</span>
+                                    <button onclick="window.modal14.showModal();" class="button home__button">LEER MÁS ...</button>
+                                </div>
+                            </li>
+                            <li style="width: 100%; list-style: none; display: flex; flex-direction: column;">
+                                <div style="display: flex; justify-content: center;">
+                                    <img src="assets/img/foto_5.jpeg" alt="" class="new__img">
+                                </div>        
+                                <div class="new__data">
+                                    <h3 class="new__title">MI FUTURA ESPOSA</h3>
+                                    <span class="new__price">Una Bella Rosa</span>
+                                    <button onclick="window.modal15.showModal();" class="button home__button">VER MÁS ...</button>
+                                </div>
+                            </li>                       
+                        </ul>
+                    </div>
+                </div>
+                <dialog id="modal12" class="open__modal__12">
+                    <div style="display: grid; background: black; opacity: .5; height: 100%;">
+                        <div>
+                            <h2 class="title__modal__1">MI NIÑA</h2><br>
+                            <p class="text__modal__1">
+                                Solo necesitaba un poco de tí <br>
+                                Encontrarte y coincidir aquí <br>
+                                Eras una niña perdida y en soledad <br>
+                                Cargando en tu corazón migajas de frialdad. <br><br>                                
+                                Tu sonrisa tímida y una mirada tierna <br>
+                                Me distrae y atrae como luz a la luciérnaga <br>
+                                Tu voz inconfundible retumba en mis oídos <br>
+                                Tus gestos quedan en mi mente fotografiados. <br><br>                                
+                                Una manía tuya me atrapa en el contexto <br>
+                                Perfecto para inspirarme a escribir estos textos <br>
+                                Todo fluyo de pronto tan natural <br>
+                                Imposible creer que todo sea virtual. <br><br>                                
+                                Mi niña dulce y risueña <br>
+                                Cierra los ojos toma de mi mano y sueña <br>
+                                Tu corazón y el mio se conocen ahora <br>
+                                Te doy mi tiempo y mi amor, ven y explora. <br><br>                                
+                                Inevitablemente bajo la conspiración del destino <br>
+                                Solo hacía falta un poco de tino <br>
+                                La soledad presiente su pronta partida <br>
+                                El amor se asoma por el ventanal deslizando esta gris cortina. <br><br>
+                            </p>
+                        </div>
+                        <div style="padding: 5px; display: flex; justify-content: center;">
+                            <button class="button home__button" onclick="window.modal12.close();">Cerrar Modal</button>
+                        </div>
+                    </div>
+                </dialog>
+                <dialog id="modal13" class="open__modal__13">
+                    <div style="display: grid; background: black; opacity: .5; height: 100%;">
+                        <div>
+                            <h2 class="title__modal__1">MI NOVIA PRECIOSA</h2><br>
+                            <p class="text__modal__1">
+                                
+                            </p>
+                        </div>
+                        <div style="padding-top: 35rem; display: flex; justify-content: center;">
+                            <button class="button home__button" onclick="window.modal13.close();">Cerrar Modal</button>
+                        </div>
+                    </div>
+                </dialog>
+                <dialog id="modal14" class="open__modal__14">
+                    <div style="display: grid; background: black; opacity: .5; height: 100%;">
+                        <div>
+                            <h2 class="title__modal__1">ME ENAMORÉ DE UNA FLOR</h2><br>
+                            <p class="text__modal__1">
+                                El mundo tal y como lo conocemos <br>
+                                No sería el que es, si nuestro amor lo ofrecemos <br>
+                                Aún no está perdido, yo lo sé <br>
+                                Porque vi una flor y de ella me enamoré. <br><br>                                
+                                Su belleza iluminó la luz de mis ojos <br>
+                                Y nació una reina, a la cual cumpliré sus antojos <br>
+                                Las cosas hermosas de la vida <br>
+                                Las encuentro solo en ella. <br><br>                                
+                                Como mi perfecta primavera, como mi verano <br>
+                                Como el amor de mi vida, que tanto esperado <br>
+                                Ahora el amor me ha tocado <br>
+                                Y todo mi ser y mi mundo ha calado. <br><br>                                
+                                Admiro a mi flor que sin importar si es primavera <br>
+                                Florece cada mañana con belleza perpetua y duradera <br>
+                                Amo y me fascina su forma y figura <br>
+                                Y solo en esta vida la amaré con total locura. <br><br>                                
+                                Tiene todo lo que soñé e imaginé de mi compañera <br>
+                                Y siempre ilusionado que con ella, lleguen las cosas venideras <br>
+                                Ahora que despierto junto a ella y veo a mi flor <br>
+                                Pienso cada amanecer en reconquistar a mi amor. <br><br>
+                            </p>
+                        </div>
+                        <div style="padding: 5px; display: flex; justify-content: center;">
+                            <button class="button home__button" onclick="window.modal14.close();">Cerrar Modal</button>
+                        </div>
+                    </div>
+                </dialog>
+                <dialog id="modal15" class="open__modal__15">
+                    <div style="display: grid; background: black; height: 100%;">
+                        <div>
+                            <h2 class="title__modal__1">MI FUTURA ESPOSA</h2><br>
+                            <div style="display: flex; justify-content: center;">
+                                <img style="width: fit-content; height: fit-content;" src="./assets/img/foto_20.jpeg" alt="rosa">
+                            </div>
+                        </div>
+                        <div style="padding: 5px; display: flex; justify-content: center;">
+                            <button class="button home__button" onclick="window.modal15.close();">Cerrar Modal</button>
+                        </div>
+                    </div>
+                </dialog>
+            </section>
+            <!--==================== NEWSLETTER ====================-->
+            <section class="newsletter section container">
+                <div class="newsletter__bg grid">
+                    <div>
+                        <h2 class="newsletter__title">Escribiré para el amor <br> Escribiré para tí ...</h2>
+                        <p class="newsletter__description">
+                            "Si me dieran a elegir para vivir, entre la eternidad ó un minuto a tu lado, 
+                            definitivamente elegiría el minuto porque la eternidad sin tí, no tiene sentido".
+                        </p>
+                    </div>                    
+                    <div style="display: flex; justify-content: center;">
+                        <img class="newsletter__img" src="./assets/img/rosa.png" alt="rosa">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Mi Ubicación</h3>
+                    <ul class="footer__list">
+                        <li>+51 - Peru</li>
+                        <li>Lima</li>
+                        <li>123-456-789</li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">Mi Información</h3>
+                    <ul class="footer__links">
+                        <li>Ingeniero Informático</li>
+                        <li>Investigador</li>
+                        <li>Tecnólogo</li>
+                        <li>Enamorado</li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">Hobbies</h3>
+                    <ul class="footer__links">
+                        <li>Patinar</li>
+                        <li>Escribir</li>
+                        <li>Fútbol</li>
+                        <li>Basketball</li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <img src="assets/img/facebook.png" alt="">
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <img src="assets/img/twitter.png" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <img src="assets/img/instagram.png" alt="">
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <span class="footer__copy">&#169; Antony Jordan. Todos los derechos reservados 2023</span>
+        </footer>
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"><i class='bx bx-up-arrow-alt scrollup__icon'></i></a>
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
